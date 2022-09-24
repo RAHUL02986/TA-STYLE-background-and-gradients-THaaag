@@ -78,7 +78,23 @@ body{
    }
    span{
     font-size: 12px;
+    text-transform: uppercase;
     
+   }
+   .btn{
+    width: 45px;
+    height: 20px;
+    border-radius: 20px;
+    background:linear-gradient(to right, #3CB6B3,#3CD191);
+    margin-left: 20px;
+   }
+   .circle{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #242A47;
+    margin-top: 2px;
+    margin-left: 5px;
    }
    .mode{
     display: flex;
@@ -95,12 +111,24 @@ body{
     margin-top: 10px;
    }
    .box{
+    position: relative;
     width: 23%;
     height: 200px;
     background-color: rgba(37, 43, 67, 0.829);
     border-top:3px solid rgb(25,143,245);
     border-radius: 5px;
     text-align: center;
+   }
+   .border-top{
+    width: 100%;
+    height: 4px;
+    border-color:rgb(25,143,245) ;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
    }
    .box-content{
     margin-top: 30px;
